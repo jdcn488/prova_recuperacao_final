@@ -7,8 +7,7 @@ for x in range(1, 1001):
     if num1 % 2 != 0 and num1 % 3 == 0:
 
         num1 += num1
-
-        print("A soma dos múltiplos de 3 a é: {}.".format(num1))
+print("A soma dos múltiplos de 3 a é: {}.".format(num1))
 
 
 

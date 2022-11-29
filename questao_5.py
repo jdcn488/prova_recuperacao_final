@@ -3,17 +3,17 @@ matriz = [
     [4, 5, 6],
     [7, 8, 9]
 ]
-
 soma = 0
 
 maior = matriz[0][0]
+
 menor = matriz[0][0]
 
 for linha in matriz:
     print(linha)
 
-for i in range(0, 3):
-    for j in range(0, 3):
+for i in matriz:
+    for j in matriz:
         if i == j:
             soma += matriz[i][j]
 

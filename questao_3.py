@@ -1,5 +1,5 @@
 
-usuario = ("(nome", "idade", "telefone", "email")
+usuario = (nome, idade, telefone, email)
 
 num = 0
 
